@@ -1,0 +1,8 @@
+@"
+.venv/
+.venv-win/
+__pycache__/
+*.pyc
+data/*.csv
+"@ | Out-File -Encoding utf8 .gitignore
+git add .gitignore
